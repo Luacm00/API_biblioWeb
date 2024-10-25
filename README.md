@@ -3,7 +3,7 @@
 ## Instrucciones de configuracion
 
 1. Clona este repositorio
-    - bash
+    - bash: 
     git clone url_del_repositorio
 
 2. Crea un archivo .env en la raiz ddel proyecto siguiendo el archivo de ejemplo .env.example
