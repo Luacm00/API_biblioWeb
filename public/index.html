@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biblioteca Virtual</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header id="main-header">
+        <nav id="navbar">
+          <ul>
+            <li>
+              <a href="#" id="available-books-link">Libros Disponibles</a>
+            </li>
+            <li><a href="#" id="user-profile-link">Perfil</a></li>
+            <li><a href="#" id="add-book-link">Agregar Libro</a></li>
+            <li><a href="#" id="logout-link">Cerrar Sesión</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Sección de inicio de sesión y registro -->
+      <div id="auth-section">
+        <h2 id="auth-title">Iniciar Sesión</h2>
+        <input type="text" id="username" placeholder="Nombre de usuario" required />
+        <input
+          type="password"
+          id="password"
+          placeholder="Contraseña"
+          required
+        />
+        <button id="auth-btn">Iniciar Sesión</button>
+        <p id="toggle-auth">
+          ¿No tienes una cuenta?
+          <a href="#" id="toggle-auth-link">Regístrate aquí</a>
+        </p>
+        <p id="auth-message"></p>
+        <p id="session-message" style="color: green;"></p>
+      </div>
+
+      <!-- Sección de libros disponibles -->
+      <div id="books-section" style="display: none">
+        <h2>Libros Disponibles</h2>
+        <ul id="book-list"></ul>
+      </div>
+
+      <!-- Sección de perfil del usuario -->
+      <div id="profile-section" style="display: none">
+        <h2>Perfil del Usuario</h2>
+        <p id="user-name">Nombre: <span id="user-name-value">Usuario</span></p>
+    </div>
+
+      <!-- Sección para agregar libro -->
+      <div id="add-book-section" style="display: none">
+        <h2>Agregar Libro</h2>
+        <input type="text" id="bookTitle" placeholder="Título" />
+        <input type="text" id="bookAuthor" placeholder="Autor" />
+        <select id="bookGenre">
+          <option value="Ciencia Ficción">Ciencia Ficción</option>
+          <option value="Misterio">Misterio</option>
+          <option value="Crimen">Crimen</option>
+        </select>
+        <button id="add-book-btn">Agregar Libro</button>
+        <p id="add-book-message"></p>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

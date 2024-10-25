@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fee3cb;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+}
+
+header {
+  background-color: #9f3b02e0;
+  padding: 10px 0;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 8px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+  border-radius: 8px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+h2 {
+  text-align: center;
+}
+
+input,
+select,
+button {
+  width: 80%;
+  padding: 10px;
+  margin: 5px 5px;
+  align-content: center;
+}
+
+button {
+  background-color: #9f3b02e0;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: #b22e02;
+}
+
+#toggle-auth {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  background-color: #000000e0;
+  margin: 5px 0;
+  color: white;
+}
+
+#navbar {
+  display: flex;
+  justify-content: center;
+}
+
+#navbar ul li {
+  margin: 0 10px;
+}
